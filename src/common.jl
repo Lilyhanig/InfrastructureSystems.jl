@@ -19,3 +19,5 @@ end
 struct HashMismatchError <: Exception
     msg::AbstractString
 end
+
+abstract type Results end
